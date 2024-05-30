@@ -1,0 +1,117 @@
+
+@media (max-width: 768px) {
+    .nav-main {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    ul.nav-list {
+        display: none;
+    }
+  
+    ul.nav-list li {
+      display: none;
+    }
+  
+    ul.nav-list a {
+        display: none;
+    }
+  
+    nav {
+      padding: 15px 10px;
+    }
+    .navbar-brand :hover{
+        color: wheat;
+    }
+    .logo a :hover{
+        color: wheat;
+    }
+
+    .d-flex{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+       }
+
+
+       .form-inputs input,
+       .form-inputs textarea {
+         font-size: 16px;
+         max-width: 100%;
+       }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-brand {
+      font-size: 24px;
+    }
+  
+    .container{
+        max-width: 100%;
+    }
+    ul.nav-list a {
+      font-size: 16px;
+      padding: 8px 10px;
+    }
+    .form-inputs input,
+    .form-inputs textarea {
+      font-size: 16px;
+      max-width: 100%;
+    }
+    .title-middle {
+        font-size: 20px;
+        padding-bottom: 20px;
+        width: 500px;
+        margin: auto;
+        text-align: center;
+      }
+      .title-middle h1{
+        font-size: 20px;
+      }
+      h1.sec-title-large {
+        font-size: 20px;
+        text-align: center;
+      }
+      span.sec-tiny-title {
+      
+        
+        font-size: 18px;
+      
+        font-weight: 400;
+   
+        display: flex;
+        justify-content: center;
+      }
+      h1.sec-title-large  {
+        font-size: 25px;
+      
+      }
+      .banner-txt h1 {
+        font-size: 25px;
+        line-height: inherit;
+    }
+      .d-flex1,
+      .banner-btm-moving-txt ul ,
+      .d-flex{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+       }
+       .banner-txt,
+       p.sub-text{
+        max-width: 100%;
+        padding: 0 20px;
+       }
+       ul.service-top li{
+        font-size: 16px;
+      }
+      .details-txt {
+      
+        max-width: 100%;
+     
+    }
+    .mixit-body {
+        display: flex;
+        padding: 0 50px;
+    }
+  }
